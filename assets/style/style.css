@@ -293,14 +293,23 @@ body{
 .skills .container .skill .nmb{
     font-family: 'Rob';
     font-size: 18px;
-    color: aliceblue;
+    color: #11C0EF;
     font-weight: 700;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 33px;
 }
 .skills .container .skill .opis{
     font-family: 'Mon';
     font-size: 16px;
     font-weight: 500;
     color: aliceblue;
+}
+.skills .container .skill .nabor .frst,.second,.thd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .skills .container .skill .block1 .nabor{
     display: flex;
