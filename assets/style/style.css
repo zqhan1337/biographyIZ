@@ -77,3 +77,191 @@ body{
     color: #11C0EF;
     transition: .3s;
 }
+.about{
+    margin-top: 50px;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about .container .col1,.col2{
+    display: flex;
+}
+.about .container .col1 .name{
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 84px;
+    color: #11C0EF;
+    writing-mode: vertical-rl;
+    margin: 0;
+    margin-top: 30px;
+    
+}
+.about .container .phototext{
+    width: 377px;
+    height: 500px;
+    border-radius: 15px;
+    background: url(../img/13122011885.jpg) no-repeat center center;
+    background-size: contain;  
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.about .container .phototext .text{
+    font-family: 'Mon';
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+    transition: .5s;
+}
+.about .container .phototext::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 195, 255, 0.5); 
+    border-radius: 15px;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+.about .container .phototext:hover::before {
+    opacity: 1; 
+}
+.about .container .phototext:hover .text{
+    opacity: 1;
+    z-index: 2;
+    transition: .3s;
+}
+.about .container .col2{
+    width: 600px;
+    overflow-x: hidden;
+}
+
+.about .container .col2 .infome label{
+    font-family: 'Mon';
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.about .container .col2 .infome input{
+    display: none;
+}
+
+.about .container .col2 .infome .perecluch .line .textphoto{
+    width: 510px;
+    height: 280px;
+    border: 1px solid #11C0EF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .container .col2 .infome .perecluch .line .textphoto .ball{
+    width: 100px;
+    height: 100px;
+    background: url(../img/football_1124104.png)no-repeat center center;
+    background-size: contain;
+
+}
+.about .container .col2 .infome .perecluch .line .textphoto .opis{
+    font-family: 'Mon';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+}
+.about .container .col2 .infome .perecluch .line .textphoto1{
+    width: 510px;
+    height: 280px;
+    border: 1px solid #11C0EF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .container .col2 .infome .perecluch .line .textphoto1 .music{
+    width: 100px;
+    height: 100px;
+    background: url(../img/rock_11943031.png)no-repeat center center;
+    background-size: contain;
+
+}
+.about .container .col2 .infome .perecluch .line .textphoto1 .opis{
+    font-family: 'Mon';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+}
+.about .container .col2 .infome .perecluch .line .textphoto3{
+    width: 510px;
+    height: 280px;
+    border: 1px solid #11C0EF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .container .col2 .infome .perecluch .line .textphoto3 .play{
+    width: 100px;
+    height: 100px;
+    background: url(../img/computer_961118.png)no-repeat center center;
+    background-size: contain;
+
+}
+.about .container .col2 .infome .perecluch .line .textphoto3 .opis{
+    font-family: 'Mon';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+}
+.about .container .col2 .infome .perecluch .line{
+    width: 300%;
+    display: flex;
+    margin-top: 20px;
+}
+.about .container .col2 .infome .perecluch .line .text{
+    width: calc(100%/3);
+    transition: 1s;
+}
+.about .container .col2 .infome .perecluch{
+    width: 100%;
+    overflow-x: hidden;
+ 
+   
+}
+
+#input1:checked~#label1,
+#input2:checked~#label2,
+#input3:checked~#label3{
+    color: #11C0EF;
+    transition: .3s;
+}
+
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
