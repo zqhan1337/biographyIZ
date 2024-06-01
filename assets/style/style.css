@@ -410,3 +410,63 @@ body{
     text-decoration: none;
     color: #11c0ef;
 }
+.career{
+    margin-top: 100px;
+}
+.career .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.career .container .dota{
+    width: 310px;
+    height: 200px;
+    background-color: #11C0EF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.career .container .dota .text{
+    display: none;
+    font-family: 'Mon';
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    transition: .5s;
+    text-align: center;
+}
+.career .container .dota:hover{
+    background-color: #1D1B1B;
+    transition: .3s;
+}
+.career .container .dota:hover .text{
+    display: block;
+    transition: .3s;
+}
+.career .container .dota:hover .number{
+    display: none;
+    transition: .3s;
+}
+.career .container .dota .number{
+    font-family: 'Mon';
+    font-size: 24px;
+    font-weight: 700;
+    color: aliceblue;
+    transition: .5s;
+}
+.career .container .napi{
+    width: 40px;
+    height: 40px;
+    background: url(../img/right-arrow_12334984.png)no-repeat center center;
+    background-size: contain;
+}
+.career .container .big{
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 84px;
+    color: #11C0EF;
+    writing-mode: vertical-rl;
+    margin: 0;
+}
