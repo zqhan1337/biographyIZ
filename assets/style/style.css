@@ -48,3 +48,32 @@ body{
     max-width: 1160px;
     margin: 0 auto;
 }
+
+.header{
+    padding-top: 10px;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+}
+.header .container .category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.header .container .category a{
+    font-family: 'Rob';
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+.header .container .category a:hover{
+    color: #11C0EF;
+    transition: .3s;
+}
