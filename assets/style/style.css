@@ -603,3 +603,68 @@ body{
         width: 350px;
     }
 }
+
+@media(max-width:766px){
+    .container{
+        width: 576px;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .header .container .category a{
+        font-size: 16px !important;
+    }
+    .about .container .name{
+        font-size: 64px !important;
+    }.about .container .phototext{
+        height: 400px !important;
+        width: 300px !important;
+    }
+    
+    .about .container .phototext .text{
+        font-size: 16px !important;
+    }
+    .about .container label{
+        font-size: 16px !important;
+    }
+    .about .container .opis{
+        font-size: 16px !important;
+    }
+    .skills .container .big{
+        font-size: 64px !important ;
+    }
+    .skills .container .Hard{
+        font-size: 24px !important;
+    }
+    .skills .container .Soft{
+        font-size: 24px !important;
+    }
+    .skills .container .nmb{
+        font-size: 16px !important;
+    }
+    .skills .container .opis{
+        font-size: 13px !important;
+    }
+    .port .container .big{
+        font-size: 64px !important ;
+    }
+    .port .container .cards .card .img1,.img2,.img3,.img4{
+        width: 250px !important;
+    }
+    .port .container .cards .card{
+        width: 260px !important;
+        
+    }
+    .port .container .cards .card .opisa{
+        font-size: 14px !important;
+    }
+    .career .container .big{
+        font-size: 64px !important;
+    }
+    .career .container .dota .text{
+        font-size: 16px !important;
+    }
+}
