@@ -595,3 +595,11 @@ body{
 
 
 }
+@media(max-width:992px){
+    .container{
+        width: 766px;
+    }
+    .port .container .cards .card{
+        width: 350px;
+    }
+}
