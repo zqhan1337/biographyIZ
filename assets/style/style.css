@@ -720,3 +720,106 @@ body{
         margin-top: 50px !important;
     }
 }
+@media(max-width:480px){
+    .container{
+        width: 300px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .container .category a{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        font-size: 14px !important;
+    }
+    .about .container .col1 .name{
+        font-size: 44px !important;
+    }
+    .about .container .col1 .phototext{
+        width: 260px !important;
+        height: 350px !important;
+
+    }
+    .about .container .col1 .phototext .text{
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+    .about .container .col2{
+        width: 125% !important;
+    }
+    .about .container .col2 .textphoto{
+        width: 280px !important;
+        margin: 0;
+    }
+
+    .about .container .col2 .textphoto1{
+        width: 280px !important;
+        margin: 0;
+    }
+    
+    .about .container .col2 .textphoto3{
+        width: 280px !important;
+        margin: 0;
+    }
+    .about .container .col2 .infome label{
+        font-size: 14px !important;
+    }
+    .about .container .col2 .infome .line{
+    margin-top: 10px !important;
+    }
+    .about .container .col2 .infome .opis{
+        font-size: 12px !important;
+    }
+    .skills{
+        margin-top: 25px !important;
+    }
+    .skills .container .big{
+        font-size: 44px !important;
+    }
+    .skills .container .skill .Hard{
+        font-size: 18px !important;
+    }
+    .skills .container .skill .Soft{
+        font-size: 18px !important;
+    }
+    .skills .container .skill .nabor{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .skills .container .skill .block1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills .container .skill .block2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills .container .skill .nmb{
+        width: 30px !important;
+    }
+    .port .container .big{
+        font-size: 38px !important;
+    }
+    .port .container .cards .card{
+        width: 280px !important;
+    }
+    .port .container .cards .card .opisa{
+        font-size: 12px !important;
+    }
+    .career .container .big{
+        font-size: 44px !important;
+    }
+    .career .container .dota{
+        width: 280px !important;
+    }
+    .career .container .dota .text{
+        font-size: 14px !important;
+    }
+
+}
