@@ -668,3 +668,55 @@ body{
         font-size: 16px !important;
     }
 }
+
+@media(max-width:576px){
+    .container{
+        width: 480px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about .container .col2{
+        width: 100% !important;
+    }
+    .about .container .col2 .perecluch{
+        width: 100%;
+    }
+    .about .container .col2 .textphoto{
+        width: 390px !important;
+        margin-left: 3px;
+    }
+    .about .container .col2 .textphoto1{
+        width: 390px !important;
+        margin-left: 3px;
+    }
+    .about .container .col2 .textphoto3{
+        width: 390px !important;
+        margin-left: 3px;
+    }
+    .about .container .col2 .opis{
+        font-size: 14px !important;
+    }
+    .skills{
+        margin-top: 50px !important;
+    }
+    .skills .container .skill .opis{
+        font-size: 13px !important;
+    }
+    .port{
+        margin-top: 50px !important;
+    }
+    .port .container .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .port .container .cards .card{
+        width: 300px !important;
+    }
+    .port .container .cards .card:nth-child(1){
+        margin-bottom: 30px !important;
+    }
+    .career{
+        margin-top: 50px !important;
+    }
+}
