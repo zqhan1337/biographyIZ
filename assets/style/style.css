@@ -422,6 +422,11 @@ body{
 .career{
     margin-top: 100px;
 }
+.career .container .dots{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .career .container{
     display: flex;
     align-items: center;
@@ -436,6 +441,8 @@ body{
     align-items: center;
     justify-content: center;
     transition: .5s;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .career .container .dota .text{
     display: none;
@@ -514,4 +521,77 @@ body{
     background: url(../img/git_6038629.png) no-repeat center center;
     margin-left: 20px;
     background-size: contain;
+}
+
+@media(max-width:1200px){
+    .container{
+        width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .about .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .container .col1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .about .container .col1 .name{
+        writing-mode: horizontal-tb ;
+        margin-top: 0;
+    }
+    
+    .about .container .col2{
+        margin-left: 80px;
+    }
+
+    .skills .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .skills .container .big{
+        writing-mode: horizontal-tb;
+        text-align: center;
+    }
+    .skills .container .skill{
+        width: 100%;
+        display: flex !important;
+        
+        justify-content: center !important;
+    }
+    .port .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .port .container .big{
+        writing-mode: horizontal-tb;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .career .container{
+       display: flex;
+       flex-direction: column-reverse;
+    }
+    .career .container .dots{
+        display: flex;
+        flex-direction: column;
+    }
+    .career .container .dots .napi{
+        display: none;
+    }
+    .career .container .dots .dota{
+        margin-bottom: 20px;
+    }
+    .career .container .big{
+        writing-mode: horizontal-tb;
+        margin-bottom: 20px;
+    }
+
+
 }
